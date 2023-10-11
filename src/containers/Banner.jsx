@@ -10,7 +10,7 @@ const Banner = () => {
       <figcaption className="section_hidden  relative w-full laptop:w-[50%] flex flex-col items-center laptop:items-start justify-center  debug text-center h-full ">
         <section className="w-full h-full flex flex-col gap-2 items-start justify-center p-4">
           <h2 className="text-2xl tablet:text-4xl uppercase font-bold text-white ">
-            I am <span className="text-orange-600">Alfred Gichia </span>
+            I am <span className="text-orange-600">Alex Oluoch </span>
           </h2>
           <p className="text-md text-white tablet:text-lg text-center laptop:text-start pt-3 pb-10 ">
             A proficient <span className="">web developer</span> with a keen
