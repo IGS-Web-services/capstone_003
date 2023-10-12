@@ -6,7 +6,10 @@ import {
   Skills,
   SocialMedia,
   Work,
+  Navbar,
+  Education
 } from "./containers";
+
 import "./App.css";
 
 function App() {
@@ -54,11 +57,14 @@ function App() {
   }, [sectionObserver, blobObserver]);
 
   return (
-    <main className="banner_background w-full h-screen overflow-auto flex flex-col overflow-x-hidden">
+    <main id='home' className="banner_background w-full h-screen overflow-auto flex flex-col overflow-x-hidden">
+      <Navbar/>
       <Banner />
       <Services />
       <Work />
+      
       <Skills />
+      <Education/>
       <Contact />
       <SocialMedia />
     </main>

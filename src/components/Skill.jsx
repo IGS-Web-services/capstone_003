@@ -4,7 +4,7 @@ const Skill = ({ icon, name }) => {
       <img
         src={icon}
         alt="Alternative image"
-        className="rounded-lg w-12 first-letter:tablet:w-16  aspect-square"
+        className="rounded-lg w-12 first-letter:sm:w-16  aspect-square"
       />
       <figcaption className=" text-center text-md capitalize w-full">
         {name}

@@ -21,11 +21,11 @@ const Skills = () => {
   return (
     <article
       id="skills"
-      className=" relative w-full  bg-slate-100  flex flex-col items-center justify-start py-16 laptop:pb-32 rounded-b-lg"
+      className=" relative w-full  bg-slate-100  flex flex-col items-center justify-start py-16 md:pb-32 rounded-b-lg"
     >
       <SectionHeading subTitle="skills & experiences" title="Tools of work" />
-      <section className="flex flex-col laptop:flex-row  items-center justify-center laptop:justify-between laptop:px-10 w-full gap-3 tablet:gap-10  laptop:h-[450px] rounded-b-lg">
-        <section className="section_hidden grid skill grid-cols-3 tablet:grid-cols-4 gap-3 p-3 h-full ">
+      <section className="flex flex-col md:flex-row  items-center justify-center md:justify-between md:px-10 w-full gap-3 sm:gap-10  md:h-[450px] rounded-b-lg">
+        <section className="section_hidden grid skill grid-cols-3 sm:grid-cols-4 gap-3 p-3 h-full ">
           <Skill icon={git} name="git" />
           <Skill icon={figma} name="figma" />
           <Skill icon={aws} name="aws services" />
@@ -42,7 +42,7 @@ const Skills = () => {
           <Skill icon={javascript} name="javascript" />
           <Skill icon={typeScript} name="typescript" />
         </section>
-        <section className="section_hidden skill experiences rounded-lg flex flex-col px-5 py-3 tablet:px-10 gap-1 h-full">
+        <section className="section_hidden skill experiences rounded-lg flex flex-col px-5 py-3 sm:px-10 gap-1 h-full">
           <Experience />
         </section>
       </section>

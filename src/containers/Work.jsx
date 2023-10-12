@@ -10,7 +10,7 @@ const Work = () => {
       className="backdrop-blur-md bg-black/40 relative w-full py-16  "
     >
       <SectionHeading subTitle="projects" title="featured work" />
-      <section className="grid phone:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-5 p-4 place-items-center px-5 tablet:px-10 laptop:px-15">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 p-4 place-items-center px-5 sm:px-10 md:px-15">
         <WorkCard
           status="version 1.0"
           link="https://elimu-mkononi.netlify.app/"
